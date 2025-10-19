@@ -1,0 +1,99 @@
+# ======================
+# Unity specific ignores
+# ======================
+
+# Folders generated automatically by Unity
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Uu]ser[Ss]ettings/
+
+# Memory captures and profiling data
+MemoryCaptures/
+*.pidb
+*.booproj
+*.svd
+
+# Build output
+*.apk
+*.aab
+*.xcodeproj
+*.xcworkspace
+*.app
+*.exe
+*.dll
+*.so
+*.dylib
+*.pdb
+*.ipa
+
+# Rider / Visual Studio / JetBrains
+.vs/
+.idea/
+*.csproj
+*.sln
+*.unityproj
+*.user
+*.userprefs
+
+# ======================
+# Unity Asset folders
+# ======================
+# Keep Assets and ProjectSettings, ignore auto-generated meta and cache where possible
+# (but keep .meta files, Unity needs them)
+!Assets/
+!ProjectSettings/
+!Packages/
+!*.meta
+
+# Piglet plugin & input actions are safe to include
+# since they’re project-specific assets
+
+# Ignore local test & build caches
+*.tmp
+*.bak
+*.backup
+*.orig
+*.db
+*.mdb
+
+# ======================
+# OS-specific
+# ======================
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# ======================
+# Logs and crash reports
+# ======================
+*.log
+*.stacktrace
+*.dmp
+
+# ======================
+# JetBrains Rider
+# ======================
+.idea/
+*.iml
+
+# ======================
+# VSCode
+# ======================
+.vscode/
+
+# ======================
+# Other
+# ======================
+*.swp
+*.swo
+*.tmp
+*.temp
